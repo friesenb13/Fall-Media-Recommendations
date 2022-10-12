@@ -1,7 +1,9 @@
-.panel{
-    background-color: peru;
-}
-
+/* :root {
+    --f7-theme-color: #f00;
+    --f7-theme-color-shade: #d60000;
+    --f7-theme-color-tint: #ff2929;
+    --f7-theme-color-rgb: 255, 0, 0;
+  } */
 html{
     min-height:100vh;
     margin:0;
@@ -24,6 +26,7 @@ h1{
 .card-content{
     color:#004F2D;
 }
-.link{
+
+a.link::before{
     color:#AB5912;
 }

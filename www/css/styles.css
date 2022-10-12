@@ -1,0 +1,29 @@
+.panel{
+    background-color: peru;
+}
+
+html{
+    min-height:100vh;
+    margin:0;
+}
+
+.page-content{
+    background-color:#FC9E4F;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    min-height: 100vh;
+    margin:0;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1{
+    color: #7D4600;
+    color:#004F2D;
+}
+.card-content{
+    color:#004F2D;
+}
+.link{
+    color:#AB5912;
+}

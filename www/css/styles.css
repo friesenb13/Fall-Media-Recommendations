@@ -1,9 +1,4 @@
-/* :root {
-    --f7-theme-color: #f00;
-    --f7-theme-color-shade: #d60000;
-    --f7-theme-color-tint: #ff2929;
-    --f7-theme-color-rgb: 255, 0, 0;
-  } */
+
 html{
     min-height:100vh;
     margin:0;
@@ -30,3 +25,19 @@ h1{
 a.link::before{
     color:#AB5912;
 }
+
+/* swiper */
+.demo-swiper .swiper-slide {
+    font-size: 25px;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    color: #000;
+  }
+
+  .demo-swiper {
+    margin: 0px 0 35px;
+    font-size: 18px;
+  }

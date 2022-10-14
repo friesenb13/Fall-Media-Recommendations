@@ -4,7 +4,10 @@ html{
     margin:0;
 }
 
+
 .page-content{
+    /* background-image: url(/www/img/bg1.jpg); */
+
     background-color:#FC9E4F;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     min-height: 100vh;
@@ -14,19 +17,13 @@ html{
 }
 
 h1{
-    
-    color:#004F2D; 
+    color:#484349;
     text-align: center;
 }
 
 h2{
     color: #7D4600;
-     
     text-align: center;
-}
-
-a.link::before{
-    color:#AB5912;
 }
 
 /* swiper */
@@ -37,7 +34,22 @@ a.link::before{
     justify-content: center;
     align-items: center;
     background: #AB5912;
-    color: #000;
     margin: 0px 0 30px;
 
   }
+
+  /* song list */
+.item-title-row .item-title{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+    color:#7D4600;
+}
+
+/* bottom toolbar */
+
+:root {
+    --f7-toolbar-bg-color: #656F31; 
+    /* --f7-toolbar-border-color: var(--f7-bars-border-color); */
+    --f7-toolbar-link-color: #EAF0CE;
+    --f7-toolbar-hide-show-transition-duration: 400ms;
+}

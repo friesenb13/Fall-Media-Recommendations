@@ -21,8 +21,3 @@ var app = new Framework7({
     
   });
 var mainView = app.views.create('.view-main')
-
-// var swiper = app.swiper.get('.swiper');
-
-//   swiper.slideNext();
-
